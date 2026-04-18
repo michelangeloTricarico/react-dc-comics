@@ -3,6 +3,8 @@ import Main from './components/main.jsx'
 import Footer from './components/footer.jsx'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '@fontsource-variable/open-sans/wght.css';
+import style from "./App.css"
 
 function App() {
   return (
