@@ -1,11 +1,6 @@
-import DigitalComics from '../assets/buy-comics-digital-comics.png'
-import DCMerchandise from '../assets/buy-comics-merchandise.png'
-import Subscription from '../assets/buy-comics-subscriptions.png'
-import ComicShopLocator from '../assets/buy-comics-shop-locator.png'
-import DCPowerVisa from '../assets/buy-dc-power-visa.svg'
 export default function Footer_links(){
     return(
-        <div className="row bg-black text-white pt-2 pb-2">
+        <div className="link_footer row bg-black text-white pt-2 pb-2">
             <div className="col-1 text-start">
                 <h2 className="pb-2">DC COMICS</h2>
                 <ul className="list-unstyled">
