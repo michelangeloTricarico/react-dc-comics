@@ -1,5 +1,7 @@
 export default function Main(){
     return(
-        <main>main</main>
+        <div className="bg-black text-white p-2">
+            <p>--Content goes here--</p>
+        </div>
     );
 }
