@@ -60,3 +60,5 @@ const nav=[
         link:"#"
     }
 ]
+
+export default nav;
