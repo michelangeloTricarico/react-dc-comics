@@ -35,7 +35,7 @@ button {
   color: rgb(23, 22, 22);
   border-bottom: 3px solid rgba(255, 255, 255, 0);
   }
-  #1{
+  .comics_a{
     color: rgb(13, 110, 253);
     border-bottom: 3px solid rgb(13, 110, 253);
   }
