@@ -6,13 +6,13 @@ export default function Header(){
                 <img className="logo d-flex justify-content-start" src={DClogo} alt="" />
             </div>
             <div className="header_link col d-flex gap-3">
-                <a href="#" className="chara_a">CHARACTERS</a>
-                <a href="#" className="comics_a">COMICS</a>
-                <a href="#" className="movie_a">MOVIES</a>
-                <a href="#" className="tv_a">TV</a>
-                <a href="#" className="games_a">GAMES</a>
-                <a href="#" className="collect_a">COLLECTIBLES</a>
-                <a href="#" className="video_a">VIDEOS</a>
+                <a href="#" id="1">CHARACTERS</a>
+                <a href="#" id="2">COMICS</a>
+                <a href="#" id="3">MOVIES</a>
+                <a href="#" id="4">TV</a>
+                <a href="#" id="5">GAMES</a>
+                <a href="#" id="6>COLLECTIBLES</a>
+                <a href="#" id="7">VIDEOS</a>
                 <a href="#" className="fan_a">FANS</a>
                 <a href="#" className="new_a">NEWS</a>
                 <a href="#" className="shop_a">SHOP</a>
