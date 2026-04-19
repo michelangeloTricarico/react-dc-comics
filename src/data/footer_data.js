@@ -30,6 +30,5 @@ const footer_btn = [
     content: "DC POWER VISA",
     icon: visaIcon
   }
-];
-
+]
 export default footer_btn;

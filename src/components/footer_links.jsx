@@ -1,47 +1,39 @@
+import footer_dc_comics from "../data/footer_dc_comics";
+import footer_shop from "../data/footer_shop";
+import footer_dc from "../data/footer_dc";
+import footer_site from "../data/footer_sites";
+
 export default function Footer_links(){
     return(
         <div className="link_footer row text-white pt-2 pb-2">
             <div className="col-2 text-start">
                 <h2 className="pb-1">DC COMICS</h2>
                 <ul className="list-unstyled">
-                    <li><a href="#">Characters</a></li>
-                    <li><a href="#">Comics</a></li>
-                    <li><a href="#">Movies</a></li>
-                    <li><a href="#">TV</a></li>
-                    <li><a href="#">Games</a></li>
-                    <li><a href="#">Videos</a></li>
-                    <li><a href="#">News</a></li>
+                    {footer_dc_comics.map((item) => (
+                        <li><a href={item["link"]}>{item["content"]}</a></li>
+                    ))}
                 </ul>
                 <h2 className="pb-1">SHOP</h2>
                 <ul className="list-unstyled">
-                    <li><a href="#">Shop DC</a></li>
-                    <li><a href="#">Shop DC Collection</a></li>
+                    {footer_shop.map((item) => (
+                        <li><a href={item["link"]}>{item["content"]}</a></li>
+                    ))}
                 </ul>
             </div>
             <div className="col-2 text-start">
                 <h2 className="pb-1">DC</h2>
                 <ul className="list-unstyled">
-                    <li><a href="#">Terms Of Use</a></li>
-                    <li><a href="#">Privacy policy (New)</a></li>
-                    <li><a href="#">Ad Choices</a></li>
-                    <li><a href="#">Advertising</a></li>
-                    <li><a href="#">Jobs</a></li>
-                    <li><a href="#">Subscriptions</a></li>
-                    <li><a href="#">Talent Workshop</a></li>
-                    <li><a href="#">CPSC Certificates</a></li>
-                    <li><a href="#">Ratings</a></li>
-                    <li><a href="#">Shop Help</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    {footer_dc.map((item) => (
+                        <li><a href={item["link"]}>{item["content"]}</a></li>
+                    ))}
                 </ul>
             </div>
             <div className="col-2 text-start">
                 <h2 className="pb-1">SITES</h2>
                 <ul className="list-unstyled">
-                    <li><a href="#">DC</a></li>
-                    <li><a href="#">MAD Magazine</a></li>
-                    <li><a href="#">DC Kids</a></li>
-                    <li><a href="#">DC Universe</a></li>
-                    <li><a href="#">DC Power Visa</a></li>
+                    {footer_site.map((item) => (
+                        <li><a href={item["link"]}>{item["content"]}</a></li>
+                    ))}
                 </ul>
             </div>
         </div>
