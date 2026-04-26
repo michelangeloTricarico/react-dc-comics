@@ -1,3 +1,4 @@
+import Card from './card.jsx'
 import jumbotron from '../assets/jumbotron.jpg'
 import comics from '../data/comics.js'
 export default function Main(){
@@ -15,10 +16,7 @@ export default function Main(){
             </div>
             <div className="row bg-black p-5 text-center">
                 {comics.map((comic) => (
-                    <div className="col-2">
-                        <div className="img_square"><img className="comic_img" src={comic["thumb"]} alt="" /></div>
-                        <p className="comic_description text-white text-start">{comic["title"]}</p>
-                    </div>
+                    <Card comic={comic} />
                 ))}
             </div>
             <div className="row px-0 bg-black">

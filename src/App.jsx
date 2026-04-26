@@ -9,11 +9,9 @@ import './App.css'
 function App() {
   return (
     <>
-    <body className="row m-auto">
-      <Header />
-      <Main />
-      <Footer /> 
-    </body> 
+    <Header />
+    <Main />
+    <Footer />
     </>
   )
 }

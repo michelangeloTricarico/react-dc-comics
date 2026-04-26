@@ -2,13 +2,13 @@ const nav=[
     {
         id: 1,
         content:"CHARACTERS",
-        class: chara_a,
+        class: "char_a",
         link:"#"
     },
     {
         id: 2,
         content:"COMICS",
-        class: comics_a,
+        class: "comics_a",
         link:"#"
     },
     {
